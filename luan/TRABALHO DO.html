@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+<body>
+
+    <script>   
+
+var numero = parseInt(prompt("Digite um número para a tabuada:"));
+
+if (isNaN(numero)) {
+  console.log("Número inválido. Por favor, tente novamente.");
+} else {
+ 
+  console.log("Tabuada de " + numero + ":");
+  for (var i = 0; i <= 10; i++) {
+    var resultado = numero * i;
+    window.document.alert(numero + " x " + i + " = " + resultado);
+  }
+}
+
+    </script>
+</body>
+</html>

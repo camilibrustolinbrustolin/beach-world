@@ -1,0 +1,14 @@
+input[type=email],
+input[type=password] {
+    height: 20px;
+    border-radius: 8px;
+    front-size: 14px;
+    padding: 6px;
+}
+
+input[type=email] ::placeholder{
+    color: #303030;
+    front-size: 12px;
+    front-weight: 300;
+    opacity: 0.0;
+}

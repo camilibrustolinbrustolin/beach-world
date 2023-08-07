@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="teladeLogin.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <form action="">
+      <fieldset class="form-wrapper">
+        <h1  aria-hidden="true"> <center>Cadastre-se</center></h1>
+        <div class="input-group">
+          <label for="input-email">E-mail: </label>
+          <input
+            id="input-email"
+            name="email"
+            type="email"
+            placeholder="naosei@gmail.com"
+            required
+          >
+        </div>
+
+        <div class="input-group">
+          <label for="input-password">Password: </label>
+          <input
+            id="input-password"
+            name="password"
+            type="password"
+            required
+          >
+        </div>
+        
+        <div>
+          <input
+            id="input-logged-in"
+            name="logged-in"
+            type="checkbox"
+          >
+          <label for="input-logged-in">Permanecer logado? </label>
+        </div>
+        <button type="submit">Login</button>
+      </fieldset>
+ 
+    </form>
+  </main>
+

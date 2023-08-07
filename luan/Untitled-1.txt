@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Praias do Mundo</title>
+</head>
+<body>
+  <header>
+    <h1>Praias do Mundo Inteiro</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#praia1">Praia 1</a></li>
+      <li><a href="#praia2">Praia 2</a></li>
+      <!-- Adicione mais praias aqui -->
+    </ul>
+  </nav>
+  <main>
+    <section id="praia1">
+      <h2>Praia 1</h2>
+      <p>Descrição da Praia 1.</p>
+    </section>
+    <section id="praia2">
+      <h2>Praia 2</h2>
+      <p>Descrição da Praia 2.</p>
+    </section>
+    <!-- Adicione mais seções para outras praias -->
+  </main>
+  <footer>
+    <p>&copy; 2023 Praias do Mundo</p>
+  </footer>
+</body>
+</html>
